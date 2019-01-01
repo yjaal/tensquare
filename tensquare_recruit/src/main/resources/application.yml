@@ -1,0 +1,19 @@
+server:
+  port: 9002
+
+#名字必须用中划线
+spring:
+  application:
+    name: tensquare-recruit
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://10.10.10.254:13306/tensquare_recruit?useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: walp1314
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:6868/eureka
+  jpa:
+    database: mysql
+    show-sql: true

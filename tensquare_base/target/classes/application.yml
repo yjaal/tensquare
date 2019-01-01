@@ -1,0 +1,16 @@
+server:
+  port: 9001
+
+#名字必须用中划线
+spring:
+  application:
+    name: recruit-base
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://10.10.10.254:13306/tensquare_base?useSSL=false
+    username: root
+    password: walp1314
+
+  jpa:
+    database: mysql
+    show-sql: true
