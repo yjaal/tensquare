@@ -1,4 +1,4 @@
-package win.iot4yj.recruit.controller;
+package win.iot4yj.qa.controller;
 
 import entity.PageResult;
 import entity.Result;
@@ -6,43 +6,24 @@ import entity.StatusCode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.*;
-import util.IdWorker;
-import win.iot4yj.recruit.pojo.Recruit;
-import win.iot4yj.recruit.service.RecruitService;
+import win.iot4yj.qa.pojo.Reply;
+import win.iot4yj.qa.service.ReplyService;
 
-import java.util.List;
 import java.util.Map;
 
 /**
  * 控制器层
  *
- * @author YJ
+ * @author Administrator
  */
 @RestController
 @CrossOrigin
-@RequestMapping("/recruit")
-public class RecruitController {
+@RequestMapping("/reply")
+public class ReplyController {
 
 	@Autowired
-	private RecruitService recruitService;
+	private ReplyService replyService;
 
-	@Autowired
-	private IdWorker idWorker;
-
-
-	//最新职位列表
-	@GetMapping(value = "search/newlist")
-	public Result newlist() {
-		return new Result(true, StatusCode.OK, "查询成功", recruitService.newList());
-	}
-
-
-	//推荐职位列表
-	@GetMapping(value = "search/recommend")
-	public Result recommend() {
-		List<Recruit> list = recruitService.recommend();
-		return new Result(true, StatusCode.OK, "查询成功", list);
-	}
 
 	/**
 	 * 查询全部数据
@@ -51,7 +32,7 @@ public class RecruitController {
 	 */
 	@RequestMapping(method = RequestMethod.GET)
 	public Result findAll() {
-		return new Result(true, StatusCode.OK, "查询成功", recruitService.findAll());
+		return new Result(true, StatusCode.OK, "查询成功", replyService.findAll());
 	}
 
 	/**
@@ -62,7 +43,7 @@ public class RecruitController {
 	 */
 	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
 	public Result findById(@PathVariable String id) {
-		return new Result(true, StatusCode.OK, "查询成功", recruitService.findById(id));
+		return new Result(true, StatusCode.OK, "查询成功", replyService.findById(id));
 	}
 
 
@@ -76,8 +57,8 @@ public class RecruitController {
 	 */
 	@RequestMapping(value = "/search/{page}/{size}", method = RequestMethod.POST)
 	public Result findSearch(@RequestBody Map searchMap, @PathVariable int page, @PathVariable int size) {
-		Page<Recruit> pageList = recruitService.findSearch(searchMap, page, size);
-		return new Result(true, StatusCode.OK, "查询成功", new PageResult<Recruit>(pageList.getTotalElements(), pageList.getContent()));
+		Page<Reply> pageList = replyService.findSearch(searchMap, page, size);
+		return new Result(true, StatusCode.OK, "查询成功", new PageResult<Reply>(pageList.getTotalElements(), pageList.getContent()));
 	}
 
 	/**
@@ -88,29 +69,29 @@ public class RecruitController {
 	 */
 	@RequestMapping(value = "/search", method = RequestMethod.POST)
 	public Result findSearch(@RequestBody Map searchMap) {
-		return new Result(true, StatusCode.OK, "查询成功", recruitService.findSearch(searchMap));
+		return new Result(true, StatusCode.OK, "查询成功", replyService.findSearch(searchMap));
 	}
 
 	/**
 	 * 增加
 	 *
-	 * @param recruit
+	 * @param reply
 	 */
 	@RequestMapping(method = RequestMethod.POST)
-	public Result add(@RequestBody Recruit recruit) {
-		recruitService.add(recruit);
+	public Result add(@RequestBody Reply reply) {
+		replyService.add(reply);
 		return new Result(true, StatusCode.OK, "增加成功");
 	}
 
 	/**
 	 * 修改
 	 *
-	 * @param recruit
+	 * @param reply
 	 */
 	@RequestMapping(value = "/{id}", method = RequestMethod.PUT)
-	public Result update(@RequestBody Recruit recruit, @PathVariable String id) {
-		recruit.setId(id);
-		recruitService.update(recruit);
+	public Result update(@RequestBody Reply reply, @PathVariable String id) {
+		reply.setId(id);
+		replyService.update(reply);
 		return new Result(true, StatusCode.OK, "修改成功");
 	}
 
@@ -121,7 +102,7 @@ public class RecruitController {
 	 */
 	@RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
 	public Result delete(@PathVariable String id) {
-		recruitService.deleteById(id);
+		replyService.deleteById(id);
 		return new Result(true, StatusCode.OK, "删除成功");
 	}
 
