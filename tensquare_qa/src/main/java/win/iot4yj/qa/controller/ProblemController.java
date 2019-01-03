@@ -46,7 +46,7 @@ public class ProblemController {
 	}
 
 	//根据标签ID查询热门问题列表
-	@GetMapping(value = "hotlist/{labelId}/{page}/{size}")
+	@GetMapping("hotlist/{labelId}/{page}/{size}")
 	public Result findHotListByLabelId(@PathVariable String labelId, @PathVariable int page, @PathVariable int size) {
 		//方式一
 //		Page<Problem> pageList = problemService.findHotListByLabelId(labelId, page, size);
