@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.jpa.domain.Specification;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import util.IdWorker;
@@ -15,6 +16,8 @@ import javax.persistence.criteria.Predicate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by yj on 2019/1/3.
@@ -31,6 +34,8 @@ public class ArticleServiceImpl implements ArticleService {
 	@Autowired
 	private IdWorker idWorker;
 
+	@Autowired
+	private RedisTemplate redisTemplate;
 
 	/**
 	 * 点赞
@@ -99,13 +104,13 @@ public class ArticleServiceImpl implements ArticleService {
 	 */
 	public Article findById(String id) {
 		//从缓存中提取
-//		Article article = (Article) redisTemplate.opsForValue().get("article_" + id);
-//		if (article == null) {
-//			article = articleDao.findById(id).get();
-//			redisTemplate.opsForValue().set("article_" + id, article, 10, TimeUnit.SECONDS);
-//		}
-//		return article;
-		return null;
+		Article article = (Article) redisTemplate.opsForValue().get("article_" + id);
+		if (Objects.equals(null, article)) {
+			article = articleDao.findById(id).get();
+			//过期时间为10s
+			redisTemplate.opsForValue().set("article_" + id, article, 10, TimeUnit.SECONDS);
+		}
+		return article;
 	}
 
 	/**
@@ -125,8 +130,8 @@ public class ArticleServiceImpl implements ArticleService {
 	 */
 	public void update(Article article) {
 		//删除缓存
-//		redisTemplate.delete("article_" + article.getId());
-//		articleDao.save(article);
+		redisTemplate.delete("article_" + article.getId());
+		articleDao.save(article);
 	}
 
 	/**
@@ -135,9 +140,9 @@ public class ArticleServiceImpl implements ArticleService {
 	 * @param id
 	 */
 	public void deleteById(String id) {
-//		//删除缓存
-//		redisTemplate.delete("article_" + id);
-//		articleDao.deleteById(id);
+		//删除缓存
+		redisTemplate.delete("article_" + id);
+		articleDao.deleteById(id);
 	}
 
 	/**

@@ -5,7 +5,7 @@ spring:
     name: recruit-article
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://10.10.10.254:13306/tensquare_recruit?useSSL=false
+    url: jdbc:mysql://10.10.10.254:13306/tensquare_article?useSSL=false&allowPublicKeyRetrieval=true
     username: root
     password: walp1314
   jpa:
@@ -15,3 +15,6 @@ spring:
       mongodb:
         host: 10.10.10.254
         database: recruitdb
+  redis:
+    host: 10.10.10.254
+    port: 16379

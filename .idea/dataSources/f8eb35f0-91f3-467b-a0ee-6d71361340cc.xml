@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="tensquare_gathering">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.2">
+    <root id="1"/>
+    <schema id="2" parent="1" name="tensquare_gathering">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="information_schema"/>
+    <schema id="4" parent="1" name="mysql"/>
+    <schema id="5" parent="1" name="performance_schema"/>
+    <schema id="6" parent="1" name="sys"/>
+    <schema id="7" parent="1" name="tensquare_article"/>
+    <schema id="8" parent="1" name="tensquare_base"/>
+    <schema id="9" parent="1" name="tensquare_friend"/>
+    <schema id="10" parent="1" name="tensquare_qa"/>
+    <schema id="11" parent="1" name="tensquare_recruit"/>
+    <schema id="12" parent="1" name="tensquare_user"/>
+    <table id="13" parent="2" name="tb_gathering">
+      <Comment>活动</Comment>
+    </table>
+    <table id="14" parent="2" name="tb_usergath">
+      <Comment>用户关注活动</Comment>
+    </table>
+    <column id="15" parent="13" name="id">
+      <Position>1</Position>
+      <Comment>编号</Comment>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="16" parent="13" name="name">
+      <Position>2</Position>
+      <Comment>活动名称</Comment>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="17" parent="13" name="summary">
+      <Position>3</Position>
+      <Comment>大会简介</Comment>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="18" parent="13" name="detail">
+      <Position>4</Position>
+      <Comment>详细说明</Comment>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="19" parent="13" name="sponsor">
+      <Position>5</Position>
+      <Comment>主办方</Comment>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="20" parent="13" name="image">
+      <Position>6</Position>
+      <Comment>活动图片</Comment>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="21" parent="13" name="starttime">
+      <Position>7</Position>
+      <Comment>开始时间</Comment>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="22" parent="13" name="endtime">
+      <Position>8</Position>
+      <Comment>截止时间</Comment>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="23" parent="13" name="address">
+      <Position>9</Position>
+      <Comment>举办地点</Comment>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="24" parent="13" name="enrolltime">
+      <Position>10</Position>
+      <Comment>报名截止</Comment>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="25" parent="13" name="state">
+      <Position>11</Position>
+      <Comment>是否可见</Comment>
+      <DataType>varchar(1)|0</DataType>
+    </column>
+    <column id="26" parent="13" name="city">
+      <Position>12</Position>
+      <Comment>城市</Comment>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <key id="27" parent="13" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="28" parent="14" name="userid">
+      <Position>1</Position>
+      <Comment>用户ID</Comment>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="29" parent="14" name="gathid">
+      <Position>2</Position>
+      <Comment>活动ID</Comment>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="30" parent="14" name="exetime">
+      <Position>3</Position>
+      <Comment>点击时间</Comment>
+      <DataType>datetime|0</DataType>
+    </column>
+    <key id="31" parent="14" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>userid
+gathid</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

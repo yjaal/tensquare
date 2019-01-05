@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="tensquare_base">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.2">
+    <root id="1"/>
+    <schema id="2" parent="1" name="tensquare_base">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="information_schema"/>
+    <schema id="4" parent="1" name="mysql"/>
+    <schema id="5" parent="1" name="performance_schema"/>
+    <schema id="6" parent="1" name="sys"/>
+    <schema id="7" parent="1" name="tensquare_article"/>
+    <schema id="8" parent="1" name="tensquare_friend"/>
+    <schema id="9" parent="1" name="tensquare_gathering"/>
+    <schema id="10" parent="1" name="tensquare_qa"/>
+    <schema id="11" parent="1" name="tensquare_recruit"/>
+    <schema id="12" parent="1" name="tensquare_user"/>
+    <table id="13" parent="2" name="tb_city">
+      <Comment>城市</Comment>
+    </table>
+    <table id="14" parent="2" name="tb_label">
+      <Comment>标签</Comment>
+    </table>
+    <column id="15" parent="13" name="id">
+      <Position>1</Position>
+      <Comment>ID</Comment>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="16" parent="13" name="name">
+      <Position>2</Position>
+      <Comment>城市名称</Comment>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="17" parent="13" name="ishot">
+      <Position>3</Position>
+      <Comment>是否热门</Comment>
+      <DataType>varchar(1)|0</DataType>
+    </column>
+    <key id="18" parent="13" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="19" parent="14" name="id">
+      <Position>1</Position>
+      <Comment>标签ID</Comment>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="20" parent="14" name="labelname">
+      <Position>2</Position>
+      <Comment>标签名称</Comment>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="21" parent="14" name="state">
+      <Position>3</Position>
+      <Comment>状态</Comment>
+      <DataType>varchar(1)|0</DataType>
+    </column>
+    <column id="22" parent="14" name="count">
+      <Position>4</Position>
+      <Comment>使用数量</Comment>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <column id="23" parent="14" name="recommend">
+      <Position>5</Position>
+      <Comment>是否推荐</Comment>
+      <DataType>varchar(1)|0</DataType>
+    </column>
+    <column id="24" parent="14" name="fans">
+      <Position>6</Position>
+      <Comment>粉丝数</Comment>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <key id="25" parent="14" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

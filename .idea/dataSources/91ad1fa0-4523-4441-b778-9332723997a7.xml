@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="tensquare_user">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.2">
+    <root id="1"/>
+    <schema id="2" parent="1" name="tensquare_user">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="information_schema"/>
+    <schema id="4" parent="1" name="mysql"/>
+    <schema id="5" parent="1" name="performance_schema"/>
+    <schema id="6" parent="1" name="sys"/>
+    <schema id="7" parent="1" name="tensquare_article"/>
+    <schema id="8" parent="1" name="tensquare_base"/>
+    <schema id="9" parent="1" name="tensquare_friend"/>
+    <schema id="10" parent="1" name="tensquare_gathering"/>
+    <schema id="11" parent="1" name="tensquare_qa"/>
+    <schema id="12" parent="1" name="tensquare_recruit"/>
+    <table id="13" parent="2" name="tb_admin">
+      <Comment>管理员</Comment>
+    </table>
+    <table id="14" parent="2" name="tb_follow"/>
+    <table id="15" parent="2" name="tb_user">
+      <Comment>用户</Comment>
+    </table>
+    <column id="16" parent="13" name="id">
+      <Position>1</Position>
+      <Comment>ID</Comment>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="17" parent="13" name="loginname">
+      <Position>2</Position>
+      <Comment>登陆名称</Comment>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="18" parent="13" name="password">
+      <Position>3</Position>
+      <Comment>密码</Comment>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="19" parent="13" name="state">
+      <Position>4</Position>
+      <Comment>状态</Comment>
+      <DataType>varchar(1)|0</DataType>
+    </column>
+    <key id="20" parent="13" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="21" parent="14" name="userid">
+      <Position>1</Position>
+      <Comment>用户ID</Comment>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="22" parent="14" name="targetuser">
+      <Position>2</Position>
+      <Comment>被关注用户ID</Comment>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="23" parent="14" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>userid
+targetuser</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="24" parent="15" name="id">
+      <Position>1</Position>
+      <Comment>ID</Comment>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="25" parent="15" name="mobile">
+      <Position>2</Position>
+      <Comment>手机号码</Comment>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="26" parent="15" name="password">
+      <Position>3</Position>
+      <Comment>密码</Comment>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="27" parent="15" name="nickname">
+      <Position>4</Position>
+      <Comment>昵称</Comment>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="28" parent="15" name="sex">
+      <Position>5</Position>
+      <Comment>性别</Comment>
+      <DataType>varchar(2)|0</DataType>
+    </column>
+    <column id="29" parent="15" name="birthday">
+      <Position>6</Position>
+      <Comment>出生年月日</Comment>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="30" parent="15" name="avatar">
+      <Position>7</Position>
+      <Comment>头像</Comment>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="31" parent="15" name="email">
+      <Position>8</Position>
+      <Comment>E-Mail</Comment>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="32" parent="15" name="regdate">
+      <Position>9</Position>
+      <Comment>注册日期</Comment>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="33" parent="15" name="updatedate">
+      <Position>10</Position>
+      <Comment>修改日期</Comment>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="34" parent="15" name="lastdate">
+      <Position>11</Position>
+      <Comment>最后登陆日期</Comment>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="35" parent="15" name="online">
+      <Position>12</Position>
+      <Comment>在线时长（分钟）</Comment>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <column id="36" parent="15" name="interest">
+      <Position>13</Position>
+      <Comment>兴趣</Comment>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="37" parent="15" name="personality">
+      <Position>14</Position>
+      <Comment>个性</Comment>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="38" parent="15" name="fanscount">
+      <Position>15</Position>
+      <Comment>粉丝数</Comment>
+      <DataType>int(20)|0</DataType>
+    </column>
+    <column id="39" parent="15" name="followcount">
+      <Position>16</Position>
+      <Comment>关注数</Comment>
+      <DataType>int(20)|0</DataType>
+    </column>
+    <key id="40" parent="15" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
