@@ -1,0 +1,9 @@
+server:
+  port: 9007
+spring:
+  application:
+    name: tensquare-search
+  data:
+    elasticsearch:
+      cluster-nodes: 10.10.10.254:9300
+      cluster-name: docker-cluster
