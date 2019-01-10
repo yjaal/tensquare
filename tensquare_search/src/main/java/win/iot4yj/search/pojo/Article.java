@@ -35,12 +35,10 @@ public class Article implements Serializable {
 	 * fielddata ：指定该属性能否进行排序，因为es中的text类型是不能进行排序（已经分词了）
 	 * searchAnalyzer ： 指定搜索使用的分词器
 	 */
-//	@Field(type = FieldType.text, analyzer = "ik_max_word", searchAnalyzer = "ik_max_word")
-	@Field(type = FieldType.text)
+	@Field(type = FieldType.text, analyzer = "ik_max_word", searchAnalyzer = "ik_max_word")
 	private String title;//标题
 
-//	@Field(type = FieldType.text, analyzer = "ik_max_word", searchAnalyzer = "ik_max_word")
-	@Field(type = FieldType.text)
+	@Field(type = FieldType.text, analyzer = "ik_max_word", searchAnalyzer = "ik_max_word")
 	private String content;//文章正文
 
 	private String state;//审核状态
