@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0356b749-30d4-4cd1-8fe7-b6afa35ebf5f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensquare_search/src/main/java/win/iot4yj/search/pojo/Article.java" afterPath="$PROJECT_DIR$/tensquare_search/src/main/java/win/iot4yj/search/pojo/Article.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/note/系统笔记.md" afterPath="$PROJECT_DIR$/note/系统笔记.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -77,6 +77,9 @@
             <state relative-caret-position="243">
               <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#374#375#0" expanded="false" />
+                <element signature="e#433#434#0" expanded="false" />
                 <element signature="e#471#472#0" expanded="false" />
                 <element signature="e#503#504#0" expanded="false" />
               </folding>
@@ -87,8 +90,8 @@
       <file leaf-file-name="Article.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tensquare_search/src/main/java/win/iot4yj/search/pojo/Article.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="41" column="33" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+            <state relative-caret-position="162">
+              <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,7 +104,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
               <caret line="22" column="54" lean-forward="false" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -989,7 +994,8 @@
       <workItem from="1546953389535" duration="3764000" />
       <workItem from="1546957921559" duration="1647000" />
       <workItem from="1547030753206" duration="6131000" />
-      <workItem from="1547125975572" duration="1271000" />
+      <workItem from="1547125975572" duration="1501000" />
+      <workItem from="1547209715477" duration="169000" />
     </task>
     <task id="LOCAL-00001" summary="问答模块创建">
       <created>1546437519284</created>
@@ -1019,11 +1025,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547043923627</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="rabbitmq">
+      <created>1547132965916</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1547132965916</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58178000" />
+    <option name="totallyTimeSpent" value="58577000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1047,7 +1060,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48202613" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329296" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33006537" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37908497" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18849356" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1104,7 +1117,8 @@
     <MESSAGE value="文章模块创建" />
     <MESSAGE value="活动模块创建" />
     <MESSAGE value="搜索模块创建" />
-    <option name="LAST_COMMIT_MESSAGE" value="搜索模块创建" />
+    <MESSAGE value="rabbitmq" />
+    <option name="LAST_COMMIT_MESSAGE" value="rabbitmq" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1434,6 +1448,9 @@
         <state relative-caret-position="243">
           <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#374#375#0" expanded="false" />
+            <element signature="e#433#434#0" expanded="false" />
             <element signature="e#471#472#0" expanded="false" />
             <element signature="e#503#504#0" expanded="false" />
           </folding>
@@ -1452,7 +1469,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="22" column="54" lean-forward="false" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1460,14 +1479,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_search/src/main/java/win/iot4yj/search/pojo/Article.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="41" column="33" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+        <state relative-caret-position="162">
+          <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
