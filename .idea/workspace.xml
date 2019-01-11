@@ -2,63 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0356b749-30d4-4cd1-8fe7-b6afa35ebf5f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_http_client_2_0_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_ipc_reactor_netty_0_7_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_0_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_0_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_0_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_0_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_0_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensquare_common/src/main/java/util/JwtUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensquare_rabbitmqDemo/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensquare_rabbitmqDemo/src/main/java/win/iot4yj/rabbitmq/RabbitApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensquare_rabbitmqDemo/src/main/java/win/iot4yj/rabbitmq/customer/Customer1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensquare_rabbitmqDemo/src/main/java/win/iot4yj/rabbitmq/customer/Customer2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensquare_rabbitmqDemo/src/main/java/win/iot4yj/rabbitmq/customer/Customer3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensquare_rabbitmqDemo/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensquare_rabbitmqDemo/src/test/java/win/iot4yj/rabbit/ProduceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensquare_rabbitmqDemo/tensquare_rabbitmqDemo.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensquare_user/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/win/iot4yj/user/UserApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/win/iot4yj/user/controller/AdminController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/win/iot4yj/user/controller/BaseExceptionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/win/iot4yj/user/controller/UserController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/win/iot4yj/user/dao/AdminDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/win/iot4yj/user/dao/UserDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/win/iot4yj/user/pojo/Admin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/win/iot4yj/user/pojo/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/win/iot4yj/user/service/AdminService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/win/iot4yj/user/service/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/win/iot4yj/user/service/impl/AdminServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/win/iot4yj/user/service/impl/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensquare_user/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensquare_user/tensquare_user.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/note/系统笔记.md" afterPath="$PROJECT_DIR$/note/系统笔记.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensquare_article/tensquare_article.iml" afterPath="$PROJECT_DIR$/tensquare_article/tensquare_article.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensquare_base/tensquare_base.iml" afterPath="$PROJECT_DIR$/tensquare_base/tensquare_base.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensquare_common/pom.xml" afterPath="$PROJECT_DIR$/tensquare_common/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensquare_common/tensquare_common.iml" afterPath="$PROJECT_DIR$/tensquare_common/tensquare_common.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensquare_gathering/tensquare_gathering.iml" afterPath="$PROJECT_DIR$/tensquare_gathering/tensquare_gathering.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensquare_qa/tensquare_qa.iml" afterPath="$PROJECT_DIR$/tensquare_qa/tensquare_qa.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensquare_recruit/tensquare_recruit.iml" afterPath="$PROJECT_DIR$/tensquare_recruit/tensquare_recruit.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensquare_search/tensquare_search.iml" afterPath="$PROJECT_DIR$/tensquare_search/tensquare_search.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensquare_spit/tensquare_spit.iml" afterPath="$PROJECT_DIR$/tensquare_spit/tensquare_spit.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -161,8 +105,8 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tensquare_user/src/main/java/win/iot4yj/user/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+            <state relative-caret-position="216">
+              <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#929#930#0" expanded="true" />
@@ -855,7 +799,7 @@
       <workItem from="1546957921559" duration="1647000" />
       <workItem from="1547030753206" duration="6131000" />
       <workItem from="1547125975572" duration="1501000" />
-      <workItem from="1547209715477" duration="8209000" />
+      <workItem from="1547209715477" duration="8270000" />
     </task>
     <task id="LOCAL-00001" summary="问答模块创建">
       <created>1546437519284</created>
@@ -899,7 +843,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547209952447</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="用户模块创建">
+      <created>1547219417550</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1547219417550</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -911,7 +862,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66617000" />
+    <option name="totallyTimeSpent" value="66678000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -924,6 +875,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -992,7 +944,8 @@
     <MESSAGE value="活动模块创建" />
     <MESSAGE value="搜索模块创建" />
     <MESSAGE value="rabbitmq" />
-    <option name="LAST_COMMIT_MESSAGE" value="rabbitmq" />
+    <MESSAGE value="用户模块创建" />
+    <option name="LAST_COMMIT_MESSAGE" value="用户模块创建" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1448,8 +1401,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_user/src/main/java/win/iot4yj/user/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        <state relative-caret-position="216">
+          <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#929#930#0" expanded="true" />
