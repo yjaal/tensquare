@@ -15,6 +15,7 @@ import javax.persistence.criteria.Predicate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 
 /**
  * Created by yj on 2019/1/11.
@@ -44,7 +45,7 @@ public class AdminServiceImpl implements AdminService {
 	public Admin findByLoginnameAndPassword(String loginname, String password) {
 		Admin admin = adminDao.findByLoginname(loginname);
 		//如果传入的密码和数据库密码匹配
-		if (admin != null && encoder.matches(password, admin.getPassword())) {
+		if (!Objects.equals(null, admin) && encoder.matches(password, admin.getPassword())) {
 			return admin;
 		} else {
 			return null;

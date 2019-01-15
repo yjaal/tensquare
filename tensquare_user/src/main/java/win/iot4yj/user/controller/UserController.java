@@ -22,7 +22,7 @@ import java.util.Map;
  */
 @RestController
 @CrossOrigin
-@RequestMapping("/user")
+@RequestMapping("user")
 public class UserController {
 
 	@Autowired
@@ -50,8 +50,8 @@ public class UserController {
 
 	//用户登录
 	@RequestMapping(value = "/login", method = RequestMethod.POST)
-	public Result login(@RequestBody Map<String, String> loginmap) {
-		User user = userService.findByMobileAndPassword(loginmap.get("mobile"), loginmap.get("password"));
+	public Result login(@RequestBody User user) {
+		user = userService.findByMobileAndPassword(user.getMobile(), user.getPassword());
 		if (user != null) {
 			//登录成功返回token
 			String token = jwtUtil.createJWT(user.getId(), user.getNickname(), "user");

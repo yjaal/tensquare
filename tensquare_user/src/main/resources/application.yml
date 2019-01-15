@@ -16,3 +16,7 @@ spring:
     port: 16379
   rabbitmq:
     host: 10.10.10.254
+jwt:
+  config:
+    key: iot4yj
+    ttl: 360000

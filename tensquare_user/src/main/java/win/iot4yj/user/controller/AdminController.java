@@ -32,12 +32,12 @@ public class AdminController {
 	/**
 	 * 登录
 	 *
-	 * @param loginmap
+	 * @param admin
 	 * @return
 	 */
 	@RequestMapping(value = "/login", method = RequestMethod.POST)
-	public Result login(@RequestBody Map<String, String> loginmap) {
-		Admin admin = adminService.findByLoginnameAndPassword(loginmap.get("loginname"), loginmap.get("password"));
+	public Result login(@RequestBody Admin admin) {
+		admin = adminService.findByLoginnameAndPassword(admin.getLoginname(), admin.getPassword());
 		if (admin != null) {
 			//生成token
 			String token = jwtUtil.createJWT(admin.getId(), admin.getLoginname(), "admin");
