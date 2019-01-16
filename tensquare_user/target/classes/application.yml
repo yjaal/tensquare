@@ -5,7 +5,7 @@ spring:
     name: tensquare-user #指定服务名
   datasource:  
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://10.10.10.254:13306/tensquare_base?useSSL=false
+    url: jdbc:mysql://10.10.10.254:13306/tensquare_base?useSSL=false&allowPublicKeyRetrieval=true
     username: root
     password: walp1314
   jpa: 

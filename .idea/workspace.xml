@@ -2,18 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0356b749-30d4-4cd1-8fe7-b6afa35ebf5f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensquare_qa/src/main/java/win/iot4yj/qa/config/InterceptorConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensquare_qa/src/main/java/win/iot4yj/qa/interceptor/JwtInterceptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/win/iot4yj/user/config/InterceptorConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/win/iot4yj/user/interceptor/JwtInterceptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_unknown.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensquare_eureka/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensquare_eureka/src/main/java/win/iot4yj/eureka/EurekaServer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensquare_eureka/src/main/resources/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensquare_eureka/tensquare_eureka.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensquare_qa/pom.xml" afterPath="$PROJECT_DIR$/tensquare_qa/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensquare_qa/src/main/java/win/iot4yj/qa/QaApplication.java" afterPath="$PROJECT_DIR$/tensquare_qa/src/main/java/win/iot4yj/qa/QaApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensquare_qa/src/main/java/win/iot4yj/qa/controller/ProblemController.java" afterPath="$PROJECT_DIR$/tensquare_qa/src/main/java/win/iot4yj/qa/controller/ProblemController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensquare_qa/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/tensquare_qa/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensquare_user/src/main/java/win/iot4yj/user/controller/UserController.java" afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/win/iot4yj/user/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensquare_user/src/main/java/win/iot4yj/user/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/win/iot4yj/user/service/impl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensquare_user/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/tensquare_user/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensquare_article/tensquare_article.iml" afterPath="$PROJECT_DIR$/tensquare_article/tensquare_article.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensquare_base/tensquare_base.iml" afterPath="$PROJECT_DIR$/tensquare_base/tensquare_base.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensquare_gathering/tensquare_gathering.iml" afterPath="$PROJECT_DIR$/tensquare_gathering/tensquare_gathering.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensquare_qa/tensquare_qa.iml" afterPath="$PROJECT_DIR$/tensquare_qa/tensquare_qa.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensquare_recruit/tensquare_recruit.iml" afterPath="$PROJECT_DIR$/tensquare_recruit/tensquare_recruit.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensquare_search/tensquare_search.iml" afterPath="$PROJECT_DIR$/tensquare_search/tensquare_search.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensquare_spit/tensquare_spit.iml" afterPath="$PROJECT_DIR$/tensquare_spit/tensquare_spit.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensquare_user/target/classes/application.yml" afterPath="$PROJECT_DIR$/tensquare_user/target/classes/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensquare_user/tensquare_user.iml" afterPath="$PROJECT_DIR$/tensquare_user/tensquare_user.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,6 +35,7 @@
     <ignored path="$PROJECT_DIR$/tensquare_rabbitmqDemo/target/" />
     <ignored path="$PROJECT_DIR$/tensquare_user/target/" />
     <ignored path="$PROJECT_DIR$/tensquare_sms/target/" />
+    <ignored path="$PROJECT_DIR$/tensquare_eureka/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,20 +58,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserApplication.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tensquare_user/src/main/java/win/iot4yj/user/UserApplication.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tensquare_eureka/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="58" column="26" lean-forward="true" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EurekaServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tensquare_eureka/src/main/java/win/iot4yj/eureka/EurekaServer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="243">
-              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding>
-                <element signature="e#466#467#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#561#562#0" expanded="true" />
-                <element signature="e#593#594#0" expanded="true" />
-                <element signature="e#656#657#0" expanded="true" />
-                <element signature="e#697#698#0" expanded="true" />
-                <element signature="e#732#733#0" expanded="true" />
-                <element signature="e#759#760#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,10 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tensquare_spit/src/main/java/win/iot4yj/spit/service/impl/SpitServiceImpl.java" />
-        <option value="$PROJECT_DIR$/tensquare_spit/src/main/java/win/iot4yj/spit/controller/SpitController.java" />
-        <option value="$PROJECT_DIR$/tensquare_search/src/main/java/win/iot4yj/search/SearchApplication.java" />
-        <option value="$PROJECT_DIR$/tensquare_search/pom.xml" />
         <option value="$PROJECT_DIR$/tensquare_search/src/main/java/win/iot4yj/search/dao/ArticleSearchDao.java" />
         <option value="$PROJECT_DIR$/tensquare_search/src/main/java/win/iot4yj/search/service/ArticleSearchService.java" />
         <option value="$PROJECT_DIR$/tensquare_search/src/main/java/win/iot4yj/search/service/impl/ArticleSearchServiceImpl.java" />
@@ -164,10 +181,14 @@
         <option value="$PROJECT_DIR$/tensquare_qa/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/tensquare_qa/src/main/java/win/iot4yj/qa/interceptor/JwtInterceptor.java" />
         <option value="$PROJECT_DIR$/tensquare_qa/src/main/java/win/iot4yj/qa/QaApplication.java" />
-        <option value="$PROJECT_DIR$/tensquare_qa/pom.xml" />
         <option value="$PROJECT_DIR$/tensquare_qa/src/main/java/win/iot4yj/qa/config/InterceptorConfig.java" />
         <option value="$PROJECT_DIR$/tensquare_qa/src/main/java/win/iot4yj/qa/controller/ProblemController.java" />
         <option value="$PROJECT_DIR$/tensquare_user/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/tensquare_eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/tensquare_eureka/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/tensquare_qa/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/tensquare_eureka/src/main/java/win/iot4yj/eureka/EurekaServer.java" />
       </list>
     </option>
   </component>
@@ -198,7 +219,7 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="tensquare_sms" />
+          <option name="myItemId" value="tensquare_eureka" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
@@ -212,7 +233,7 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="tensquare_sms" />
+          <option name="myItemId" value="tensquare_eureka" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -222,7 +243,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -279,94 +300,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tensquare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tensquare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tensquare_user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tensquare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tensquare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tensquare_user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tensquare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tensquare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tensquare_user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tensquare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tensquare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tensquare_user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -375,11 +308,12 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -391,11 +325,11 @@
       <recent name="win.iot4yj.rabbitmq.customer" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEA\workspace\tensquare\tensquare_eureka\src\main\java\win\iot4yj\eureka" />
+      <recent name="E:\IDEA\workspace\tensquare\tensquare_eureka\src\main\resources" />
       <recent name="E:\IDEA\workspace\tensquare\tensquare_user\src\main\java\win\iot4yj\user\config" />
       <recent name="E:\IDEA\workspace\tensquare\tensquare_sms\src\main\java\win\iot4yj\sms" />
       <recent name="E:\IDEA\workspace\tensquare\tensquare_sms\src\main\resources" />
-      <recent name="E:\IDEA\workspace\tensquare\tensquare_user\src\main\java\win\iot4yj\user\controller" />
-      <recent name="E:\IDEA\workspace\tensquare\tensquare_common\src\main\java\util" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -794,7 +728,14 @@
       <envs />
       <method />
     </configuration>
-    <list size="15">
+    <configuration default="false" name="EurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="win.iot4yj.eureka.EurekaServer" />
+      <module name="tensquare_eureka" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="16">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.RecruitApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.ArticleApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.SpitApplication" />
@@ -810,6 +751,7 @@
       <item index="12" class="java.lang.String" itemvalue="JUnit.ProduceTest.send1Test" />
       <item index="13" class="java.lang.String" itemvalue="Application.CreateJwt" />
       <item index="14" class="java.lang.String" itemvalue="Application.ParseJwtTest" />
+      <item index="15" class="java.lang.String" itemvalue="Spring Boot.EurekaServer" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -856,7 +798,7 @@
       <workItem from="1547349154851" duration="11966000" />
       <workItem from="1547471311766" duration="4063000" />
       <workItem from="1547557582615" duration="6194000" />
-      <workItem from="1547636662156" duration="7106000" />
+      <workItem from="1547636662156" duration="11292000" />
     </task>
     <task id="LOCAL-00001" summary="问答模块创建">
       <created>1546437519284</created>
@@ -921,7 +863,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547564085442</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="拦截器">
+      <created>1547644761652</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1547644761652</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -933,7 +882,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105169000" />
+    <option name="totallyTimeSpent" value="109355000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -945,7 +894,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -953,7 +902,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36437908" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267974" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2922029" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2687358" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35457516" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1017,7 +966,8 @@
     <MESSAGE value="rabbitmq" />
     <MESSAGE value="用户模块创建" />
     <MESSAGE value="token用法" />
-    <option name="LAST_COMMIT_MESSAGE" value="token用法" />
+    <MESSAGE value="拦截器" />
+    <option name="LAST_COMMIT_MESSAGE" value="拦截器" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1026,27 +976,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tensquare_rabbitmqDemo/src/main/java/win/iot4yj/rabbitmq/customer/Customer2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_rabbitmqDemo/src/main/java/win/iot4yj/rabbitmq/customer/Customer3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_rabbitmqDemo/src/test/java/win/iot4yj/rabbit/ProduceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_rabbitmqDemo/src/main/java/win/iot4yj/rabbitmq/RabbitApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -1125,14 +1054,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-891">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/6e2f91f5/91ad1fa0-4523-4441-b778-9332723997a7/tensquare_user.tb_user">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1179,6 +1100,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
           <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1246,6 +1168,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1339,7 +1262,7 @@
         <state relative-caret-position="299">
           <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1348,14 +1271,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_qa/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1433,18 +1348,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_user/src/main/java/win/iot4yj/user/UserApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="216">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
           <folding>
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="false" />
+            <element signature="e#523#524#0" expanded="false" />
+            <element signature="e#561#562#0" expanded="false" />
+            <element signature="e#593#594#0" expanded="false" />
+            <element signature="e#656#657#0" expanded="false" />
+            <element signature="e#697#698#0" expanded="false" />
+            <element signature="e#732#733#0" expanded="false" />
+            <element signature="e#759#760#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_qa/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_eureka/src/main/java/win/iot4yj/eureka/EurekaServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="58" column="26" lean-forward="true" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1500,7 +1457,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>tensquare</last-edited>
+          <last-edited>tensquare_qa</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
