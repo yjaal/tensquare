@@ -11,3 +11,7 @@ spring:
   jpa: 
     database: MySQL
     show-sql: true
+jwt:
+  config:
+    key: iot4yj
+    ttl: 360000

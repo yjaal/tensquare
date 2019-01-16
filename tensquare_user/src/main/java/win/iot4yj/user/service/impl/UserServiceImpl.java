@@ -42,7 +42,6 @@ public class UserServiceImpl implements UserService {
 	@Autowired
 	private BCryptPasswordEncoder encoder;
 
-
 	//更新关注数
 	@Transactional
 	public void incFollowcount(String userid, int x) {

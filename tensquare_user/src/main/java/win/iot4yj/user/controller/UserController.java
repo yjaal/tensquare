@@ -4,6 +4,7 @@ import entity.PageResult;
 import entity.Result;
 import entity.StatusCode;
 import io.jsonwebtoken.Claims;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.*;
@@ -14,6 +15,7 @@ import win.iot4yj.user.service.UserService;
 import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 /**
  * 控制器层
@@ -152,19 +154,38 @@ public class UserController {
 	}
 
 	/**
-	 * 删除
+	 * 删除，在删除过程中需要在请求头中将token带过来
 	 *
 	 * @param id
 	 */
 	@RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
-	public Result delete(@PathVariable String id) {
-		//删除用户必须有管理员权限
-		Claims claims = (Claims) request.getAttribute("admin_claims");
-		if (claims == null) {
+	public Result deleteById(@PathVariable String id) {
+		//提取到拦截器中
+//		//删除用户必须有管理员权限，这里之所以会这样校验，是和我们生成token自定义的规则是相配合的
+//		String header = request.getHeader("Authorization");
+//		if (StringUtils.isEmpty(header)) {
+//			return new Result(true, StatusCode.ACCESSERROR, "无权访问");
+//		}
+//		if (!header.startsWith("Bearer ")) {
+//			return new Result(true, StatusCode.ACCESSERROR, "无权访问");
+//		}
+//		//得到token
+//		String token = header.substring(7);//"bearer "长度为7
+//		try {
+//			Claims claims = jwtUtil.parseJWT(token);
+//			String roles = (String) claims.get("roles");
+//			if (StringUtils.isEmpty(roles) || !Objects.equals("admin", roles)) {
+//				return new Result(true, StatusCode.ACCESSERROR, "无权访问");
+//			}
+//		} catch (Exception e) {
+//			return new Result(true, StatusCode.ACCESSERROR, "无权访问");
+//		}
+
+		String token = (String) request.getAttribute("claims_admin");
+		if (StringUtils.isEmpty(token)) {
 			return new Result(true, StatusCode.ACCESSERROR, "无权访问");
 		}
 		userService.deleteById(id);
 		return new Result(true, StatusCode.OK, "删除成功");
 	}
-
 }

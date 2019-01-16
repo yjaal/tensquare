@@ -3,12 +3,15 @@ package win.iot4yj.qa.controller;
 import entity.PageResult;
 import entity.Result;
 import entity.StatusCode;
+import io.jsonwebtoken.Claims;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
+import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 import win.iot4yj.qa.pojo.Problem;
 import win.iot4yj.qa.service.ProblemService;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
 
 /**
@@ -24,8 +27,8 @@ public class ProblemController {
 	@Autowired
 	private ProblemService problemService;
 
-//	@Autowired
-//	private HttpServletRequest request;
+	@Autowired
+	private HttpServletRequest request;
 
 
 	@GetMapping("label/{labelId}")
@@ -122,10 +125,10 @@ public class ProblemController {
 	@PostMapping
 	public Result add(@RequestBody Problem problem) {
 		//发布问题之前验证权限
-//        Claims claims = (Claims) request.getAttribute("user_claims");
-//        if (claims==null) {
-//            return new Result(false,StatusCode.ACCESSERROR,"无权发布");
-//        }
+		String token = (String) request.getAttribute("user_claims");
+		if (StringUtils.isEmpty(token)) {
+			return new Result(false, StatusCode.ACCESSERROR, "无权发布");
+		}
 		problemService.add(problem);
 		return new Result(true, StatusCode.OK, "增加成功");
 	}
