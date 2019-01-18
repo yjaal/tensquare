@@ -3,11 +3,11 @@ package win.iot4yj.qa.controller;
 import entity.PageResult;
 import entity.Result;
 import entity.StatusCode;
-import io.jsonwebtoken.Claims;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
+import win.iot4yj.qa.client.LabelClient;
 import win.iot4yj.qa.pojo.Problem;
 import win.iot4yj.qa.service.ProblemService;
 
@@ -30,11 +30,17 @@ public class ProblemController {
 	@Autowired
 	private HttpServletRequest request;
 
+	@Autowired
+	private LabelClient labelClient;
+
 
 	@GetMapping("label/{labelId}")
 	public Result findLabelById(@PathVariable String labelId) {
-//        Result result = labelClient.findById(labelid);
-		return null;
+		//这里我们可以启动多个qa模块微服务来测试负载均衡，会轮流进行调用，当然需要改一下打印
+		System.out.println("No.1");
+		//使用Feign调用tensquare-base模块
+        Result result = labelClient.findById(labelId);
+		return result;
 	}
 
 	//根据标签ID查询等待回答列表

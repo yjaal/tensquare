@@ -2,6 +2,7 @@ package win.iot4yj.article;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.Bean;
 import util.IdWorker;
 
@@ -11,6 +12,7 @@ import util.IdWorker;
  * @author yj
  */
 @SpringBootApplication
+@EnableEurekaClient
 public class ArticleApplication {
 
 	public static void main(String[] args) {

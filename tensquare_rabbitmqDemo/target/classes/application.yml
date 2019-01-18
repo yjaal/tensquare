@@ -1,5 +1,0 @@
-server: 
-  port: 9008
-spring:
-  rabbitmq:
-    host: 10.10.10.254

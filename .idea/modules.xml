@@ -6,8 +6,11 @@
       <module fileurl="file://$PROJECT_DIR$/tensquare_article/tensquare_article.iml" filepath="$PROJECT_DIR$/tensquare_article/tensquare_article.iml" />
       <module fileurl="file://$PROJECT_DIR$/tensquare_base/tensquare_base.iml" filepath="$PROJECT_DIR$/tensquare_base/tensquare_base.iml" />
       <module fileurl="file://$PROJECT_DIR$/tensquare_common/tensquare_common.iml" filepath="$PROJECT_DIR$/tensquare_common/tensquare_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tensquare_config/tensquare_config.iml" filepath="$PROJECT_DIR$/tensquare_config/tensquare_config.iml" />
       <module fileurl="file://$PROJECT_DIR$/tensquare_eureka/tensquare_eureka.iml" filepath="$PROJECT_DIR$/tensquare_eureka/tensquare_eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tensquare_friend/tensquare_friend.iml" filepath="$PROJECT_DIR$/tensquare_friend/tensquare_friend.iml" />
       <module fileurl="file://$PROJECT_DIR$/tensquare_gathering/tensquare_gathering.iml" filepath="$PROJECT_DIR$/tensquare_gathering/tensquare_gathering.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tensquare_manager/tensquare_manager.iml" filepath="$PROJECT_DIR$/tensquare_manager/tensquare_manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/tensquare_qa/tensquare_qa.iml" filepath="$PROJECT_DIR$/tensquare_qa/tensquare_qa.iml" />
       <module fileurl="file://$PROJECT_DIR$/tensquare_rabbitmqDemo/tensquare_rabbitmqDemo.iml" filepath="$PROJECT_DIR$/tensquare_rabbitmqDemo/tensquare_rabbitmqDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/tensquare_recruit/tensquare_recruit.iml" filepath="$PROJECT_DIR$/tensquare_recruit/tensquare_recruit.iml" />
@@ -15,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/tensquare_sms/tensquare_sms.iml" filepath="$PROJECT_DIR$/tensquare_sms/tensquare_sms.iml" />
       <module fileurl="file://$PROJECT_DIR$/tensquare_spit/tensquare_spit.iml" filepath="$PROJECT_DIR$/tensquare_spit/tensquare_spit.iml" />
       <module fileurl="file://$PROJECT_DIR$/tensquare_user/tensquare_user.iml" filepath="$PROJECT_DIR$/tensquare_user/tensquare_user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tensquare_web/tensquare_web.iml" filepath="$PROJECT_DIR$/tensquare_web/tensquare_web.iml" />
     </modules>
   </component>
 </project>
