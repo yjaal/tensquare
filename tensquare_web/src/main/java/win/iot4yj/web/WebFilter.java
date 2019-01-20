@@ -34,6 +34,8 @@ public class WebFilter /*extends ZuulFilter*/ {
 	public Object run() /*throws ZuulException*/ {
 		System.out.println("zuul过滤器...");
 
+		//经过过滤器之后头信息会丢失，这里做一个重新设置头的实验，当然校验工作当不能
+		//全部放在各个模块中，而应该提取到过滤器中
 		//向heander中添加鉴权令牌
 		//获取当前容器对象
 		//Requestcontext requestcontext = Requestcontext.getCurrentContext;

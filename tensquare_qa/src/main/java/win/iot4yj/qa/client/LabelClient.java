@@ -14,7 +14,7 @@ import win.iot4yj.qa.client.impl.LabelClientImpl;
  * author: loveLy
  */
 
-//value的名字不能包含下划线
+//value的名字不能包含下划线，这里fallback表示如果feign调用失败，则去调用实现类中的方法
 @FeignClient(value = "tensquare-base", fallback = LabelClientImpl.class)  //指定要调用的服务
 public interface LabelClient {
 

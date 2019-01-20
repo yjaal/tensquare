@@ -35,3 +35,15 @@ insert  into `tb_friend`(`userid`,`friendid`,`islike`) values ('1','100','1');
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
 /*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+
+
+/*Table structure for table `tb_nofriend` */
+
+DROP TABLE IF EXISTS `tb_nofriend`;
+
+CREATE TABLE `tb_nofriend` (
+  `userid` varchar(20) NOT NULL COMMENT '用户ID',
+  `friendid` varchar(20) NOT NULL COMMENT '好友ID',
+  PRIMARY KEY (`userid`,`friendid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
