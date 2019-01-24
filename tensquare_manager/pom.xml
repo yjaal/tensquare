@@ -17,10 +17,10 @@
 		</dependency>
 
 		<!--缺少Zuul依赖-->
-		<!--<dependency>
+		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-zuul</artifactId>
-		</dependency>-->
+		</dependency>
 
 		<dependency>
 			<groupId>win.iot4yj</groupId>

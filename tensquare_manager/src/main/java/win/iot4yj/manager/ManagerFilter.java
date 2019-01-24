@@ -1,5 +1,7 @@
 package win.iot4yj.manager;
 
+import com.netflix.zuul.ZuulFilter;
+import com.netflix.zuul.exception.ZuulException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import util.JwtUtil;
@@ -10,7 +12,7 @@ import util.JwtUtil;
  * author: loveLy
  */
 @Component
-public class ManagerFilter /*extends ZuulFilte*/ {
+public class ManagerFilter extends ZuulFilter{
 
 
 	@Autowired
@@ -33,7 +35,7 @@ public class ManagerFilter /*extends ZuulFilte*/ {
 
 
 	//@Override
-	public Object run() /*throws ZuulException*/ {
+	public Object run() throws ZuulException {
 		System.out.println("Zuul过滤器");
 
         /*requestContext=RequestContext.getCurrentContext();
@@ -65,11 +67,12 @@ public class ManagerFilter /*extends ZuulFilte*/ {
         }*/
 
 		//没有权限
-        /*requestContext.setSendZuulResponse(false);//终止运行
-        requestContext.setResponseStatusCode(401);//http状态码
+        /*requestContext.setSendZuulResponse(false);//终止运行，不对其进行路由
+        requestContext.setResponseStatusCode(401);//http状态码，设置返回的错误码
         requestContext.setResponseBody("无权访问");
         //乱码处理
         requestContext.getResponse().setContentType("text/html;charset=UTF-8");*/
+
 		return null;
 	}
 }
