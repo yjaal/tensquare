@@ -94,7 +94,6 @@ public class LabelServiceImpl implements LabelService {
 	@Override
 	public List<Label> find1(Label label) {
 		return null;
-//		return labelDao.findAll(Obj2PredicateList.getQueryPredicates(label));
 	}
 
 	//和find方法的功能一样呢，只是进行了分页
@@ -107,6 +106,5 @@ public class LabelServiceImpl implements LabelService {
 	@Override
 	public Page<Label> find1(Label label, int page, int size) {
 		return null;
-//		return labelDao.findAll(Obj2PredicateList.getQueryPredicates(label), PageRequest.of(page - 1, size));
 	}
 }

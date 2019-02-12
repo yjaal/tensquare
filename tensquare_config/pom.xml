@@ -32,10 +32,10 @@
 	<build>
 		<finalName>app</finalName>
 		<plugins>
-			<!--<plugin>-->
-				<!--<groupId>org.springframework.boot</groupId>-->
-				<!--<artifactId>spring‐boot‐maven‐plugin</artifactId>-->
-			<!--</plugin>-->
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
 			<!--docker的maven插件，官网： https://github.com/spotify/docker-maven-plugin -->
 			<plugin>
 				<groupId>com.spotify</groupId>
