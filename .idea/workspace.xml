@@ -2,29 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0356b749-30d4-4cd1-8fe7-b6afa35ebf5f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/note/系统笔记.md" afterPath="$PROJECT_DIR$/note/系统笔记.md" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/tensquare_article/pom.xml" afterPath="$PROJECT_DIR$/tensquare_article/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/tensquare_base/pom.xml" afterPath="$PROJECT_DIR$/tensquare_base/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/tensquare_base/src/main/java/win/iot4yj/base/service/impl/LabelServiceImpl.java" afterPath="$PROJECT_DIR$/tensquare_base/src/main/java/win/iot4yj/base/service/impl/LabelServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/tensquare_common/pom.xml" afterPath="$PROJECT_DIR$/tensquare_common/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/tensquare_common/src/main/java/entity/QueryCondition.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tensquare_common/src/main/java/util/Obj2PredicateList.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tensquare_common/tensquare_common.iml" afterPath="$PROJECT_DIR$/tensquare_common/tensquare_common.iml" />
-      <change beforePath="$PROJECT_DIR$/tensquare_config/pom.xml" afterPath="$PROJECT_DIR$/tensquare_config/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/tensquare_eureka/pom.xml" afterPath="$PROJECT_DIR$/tensquare_eureka/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/tensquare_friend/pom.xml" afterPath="$PROJECT_DIR$/tensquare_friend/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/tensquare_gathering/pom.xml" afterPath="$PROJECT_DIR$/tensquare_gathering/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/tensquare_manager/pom.xml" afterPath="$PROJECT_DIR$/tensquare_manager/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/tensquare_manager/tensquare_manager.iml" afterPath="$PROJECT_DIR$/tensquare_manager/tensquare_manager.iml" />
-      <change beforePath="$PROJECT_DIR$/tensquare_qa/pom.xml" afterPath="$PROJECT_DIR$/tensquare_qa/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/tensquare_recruit/pom.xml" afterPath="$PROJECT_DIR$/tensquare_recruit/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/tensquare_search/pom.xml" afterPath="$PROJECT_DIR$/tensquare_search/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/tensquare_sms/pom.xml" afterPath="$PROJECT_DIR$/tensquare_sms/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/tensquare_spit/pom.xml" afterPath="$PROJECT_DIR$/tensquare_spit/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/tensquare_user/pom.xml" afterPath="$PROJECT_DIR$/tensquare_user/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/tensquare_web/pom.xml" afterPath="$PROJECT_DIR$/tensquare_web/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/tensquare_base/src/main/java/win/iot4yj/base/pojo/Label.java" afterPath="$PROJECT_DIR$/tensquare_base/src/main/java/win/iot4yj/base/pojo/Label.java" />
+      <change beforePath="$PROJECT_DIR$/tensquare_common/target/classes/entity/PageResult.class" afterPath="$PROJECT_DIR$/tensquare_common/target/classes/entity/PageResult.class" />
+      <change beforePath="$PROJECT_DIR$/tensquare_common/target/classes/entity/QueryCondition.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tensquare_common/target/classes/entity/QueryType.class" afterPath="$PROJECT_DIR$/tensquare_common/target/classes/entity/QueryType.class" />
+      <change beforePath="$PROJECT_DIR$/tensquare_common/target/classes/entity/Result.class" afterPath="$PROJECT_DIR$/tensquare_common/target/classes/entity/Result.class" />
+      <change beforePath="$PROJECT_DIR$/tensquare_common/target/classes/util/IdWorker.class" afterPath="$PROJECT_DIR$/tensquare_common/target/classes/util/IdWorker.class" />
+      <change beforePath="$PROJECT_DIR$/tensquare_eureka/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/tensquare_eureka/src/main/resources/bootstrap.yml" />
+      <change beforePath="$PROJECT_DIR$/tensquare_eureka/target/classes/application.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tensquare_friend/target/classes/application.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tensquare_gathering/target/classes/application.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tensquare_qa/target/classes/application.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tensquare_rabbitmqDemo/pom.xml" afterPath="$PROJECT_DIR$/tensquare_rabbitmqDemo/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/tensquare_recruit/target/classes/application.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tensquare_search/target/classes/application.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tensquare_sms/target/classes/application.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tensquare_spit/target/classes/application.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tensquare_user/target/classes/application.yml" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -79,7 +77,18 @@
     <favorites_list name="tensquare" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="225" />
+    <leaf>
+      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tensquare_eureka/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -131,9 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tensquare_friend/src/main/java/win/iot4yj/friend/config/InterceptorConfig.java" />
-        <option value="$PROJECT_DIR$/tensquare_friend/src/main/java/win/iot4yj/friend/pojo/Friend.java" />
-        <option value="$PROJECT_DIR$/tensquare_friend/src/main/java/win/iot4yj/friend/pojo/NoFriend.java" />
         <option value="$PROJECT_DIR$/tensquare_friend/src/main/java/win/iot4yj/friend/interceptor/JwtInterceptor.java" />
         <option value="$PROJECT_DIR$/tensquare_friend/src/main/java/win/iot4yj/friend/dao/FriendDao.java" />
         <option value="$PROJECT_DIR$/tensquare_friend/src/main/java/win/iot4yj/friend/dao/NoFriendDao.java" />
@@ -162,13 +168,11 @@
         <option value="$PROJECT_DIR$/tensquare_spit/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/tensquare_user/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/tensquare_web/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/tensquare_eureka/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/tensquare_config/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/.git/config" />
         <option value="$PROJECT_DIR$/tensquare_common/pom.xml" />
         <option value="$PROJECT_DIR$/tensquare_base/src/main/java/win/iot4yj/base/service/impl/LabelServiceImpl.java" />
         <option value="$PROJECT_DIR$/tensquare_article/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/tensquare_base/pom.xml" />
         <option value="$PROJECT_DIR$/tensquare_config/pom.xml" />
         <option value="$PROJECT_DIR$/tensquare_eureka/pom.xml" />
@@ -182,6 +186,11 @@
         <option value="$PROJECT_DIR$/tensquare_spit/pom.xml" />
         <option value="$PROJECT_DIR$/tensquare_user/pom.xml" />
         <option value="$PROJECT_DIR$/tensquare_web/pom.xml" />
+        <option value="$PROJECT_DIR$/tensquare_base/src/main/java/win/iot4yj/base/pojo/Label.java" />
+        <option value="$PROJECT_DIR$/tensquare_rabbitmqDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/tensquare_rabbitmqDemo/src/test/java/win/iot4yj/rabbit/ProduceTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/tensquare_eureka/src/main/resources/bootstrap.yml" />
       </list>
     </option>
   </component>
@@ -195,6 +204,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="E:\maven\maven\repository" />
+        <option name="mavenHome" value="E:/maven/maven-3.3.9" />
         <option name="userSettingsFile" value="E:\maven\maven\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -256,8 +266,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -265,11 +274,38 @@
               <item name="tensquare" type="b2602c69:ProjectViewProjectNode" />
               <item name="tensquare" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tensquare" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensquare" type="462c0819:PsiDirectoryNode" />
+              <item name="tensquare_eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensquare" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensquare" type="462c0819:PsiDirectoryNode" />
+              <item name="tensquare_eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensquare" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensquare" type="462c0819:PsiDirectoryNode" />
+              <item name="tensquare_eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensquare" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensquare" type="462c0819:PsiDirectoryNode" />
+              <item name="tensquare_eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -787,7 +823,8 @@
       <workItem from="1548759735996" duration="5549000" />
       <workItem from="1549887210778" duration="3056000" />
       <workItem from="1549979243785" duration="1880000" />
-      <workItem from="1549981187512" duration="1834000" />
+      <workItem from="1549981187512" duration="1988000" />
+      <workItem from="1550055773348" duration="4749000" />
     </task>
     <task id="LOCAL-00001" summary="问答模块创建">
       <created>1546437519284</created>
@@ -929,7 +966,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548767655538</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="打包配置">
+      <created>1549983265416</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1549983265416</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -941,7 +985,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186130000" />
+    <option name="totallyTimeSpent" value="191033000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -954,23 +998,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280507" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6497623" sideWeight="0.50301206" order="13" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2740964" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42472267" sideWeight="0.49698794" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2740964" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6244057" sideWeight="0.49698794" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906628" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6386688" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35974643" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15361446" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15361446" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33509037" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32012677" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24981076" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41204438" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -982,7 +1028,6 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36379018" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4801902" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32012677" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1033,7 +1078,8 @@
     <MESSAGE value="相关笔记完善" />
     <MESSAGE value="docker镜像创建并上传" />
     <MESSAGE value="相关图片上传" />
-    <option name="LAST_COMMIT_MESSAGE" value="相关图片上传" />
+    <MESSAGE value="打包配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="打包配置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1042,27 +1088,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tensquare_user/src/main/java/win/iot4yj/user/interceptor/JwtInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_article/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="23" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_article/src/main/java/win/iot4yj/article/ArticleApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_qa/src/main/java/win/iot4yj/qa/QaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -1220,13 +1245,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_eureka/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/tensquare_eureka/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.git/config">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1246,38 +1264,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2457">
           <caret line="99" column="13" lean-forward="true" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2723#2724#0" expanded="false" />
+            <element signature="e#2741#2742#0" expanded="false" />
+            <element signature="e#3024#3025#0" expanded="false" />
+            <element signature="e#3042#3043#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_common/src/main/java/util/Obj2PredicateList.java" />
-    <entry file="file://$PROJECT_DIR$/tensquare_rabbitmqDemo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-98">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_article/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="58" column="21" lean-forward="true" selection-start-line="55" selection-start-column="12" selection-end-line="58" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="85" column="20" lean-forward="true" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1382,6 +1383,64 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
           <caret line="63" column="21" lean-forward="false" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/java/win/iot4yj/base/pojo/Label.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_article/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="86" column="12" lean-forward="true" selection-start-line="52" selection-start-column="4" selection-end-line="86" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_rabbitmqDemo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_rabbitmqDemo/src/main/java/win/iot4yj/rabbitmq/RabbitApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_rabbitmqDemo/src/test/java/win/iot4yj/rabbit/ProduceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-206">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_eureka/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
           <folding />
         </state>
       </provider>

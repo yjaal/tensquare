@@ -12,7 +12,6 @@
       <module fileurl="file://$PROJECT_DIR$/tensquare_gathering/tensquare_gathering.iml" filepath="$PROJECT_DIR$/tensquare_gathering/tensquare_gathering.iml" />
       <module fileurl="file://$PROJECT_DIR$/tensquare_manager/tensquare_manager.iml" filepath="$PROJECT_DIR$/tensquare_manager/tensquare_manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/tensquare_qa/tensquare_qa.iml" filepath="$PROJECT_DIR$/tensquare_qa/tensquare_qa.iml" />
-      <module fileurl="file://$PROJECT_DIR$/tensquare_rabbitmqDemo/tensquare_rabbitmqDemo.iml" filepath="$PROJECT_DIR$/tensquare_rabbitmqDemo/tensquare_rabbitmqDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/tensquare_recruit/tensquare_recruit.iml" filepath="$PROJECT_DIR$/tensquare_recruit/tensquare_recruit.iml" />
       <module fileurl="file://$PROJECT_DIR$/tensquare_search/tensquare_search.iml" filepath="$PROJECT_DIR$/tensquare_search/tensquare_search.iml" />
       <module fileurl="file://$PROJECT_DIR$/tensquare_sms/tensquare_sms.iml" filepath="$PROJECT_DIR$/tensquare_sms/tensquare_sms.iml" />

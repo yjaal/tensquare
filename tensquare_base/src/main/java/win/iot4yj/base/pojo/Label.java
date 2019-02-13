@@ -1,8 +1,5 @@
 package win.iot4yj.base.pojo;
 
-import entity.QueryCondition;
-import entity.QueryType;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -19,11 +16,9 @@ public class Label implements Serializable {
 	private String id;
 
 	@Column(name = "labelname")
-	@QueryCondition(field = "labelname", condition = QueryType.LIKE)
 	private String labelname;//标签名称
 
 	@Column(name = "state")
-	@QueryCondition(field = "state", condition = QueryType.EQUAL)
 	private String state;//状态
 
 	@Column(name = "count")
@@ -33,7 +28,6 @@ public class Label implements Serializable {
 	private Long fans;//关注数
 
 	@Column(name = "recommend")
-	@QueryCondition(field = "recommend", condition = QueryType.EQUAL)
 	private String recommend;//是否推荐
 
 	public String getId() {
