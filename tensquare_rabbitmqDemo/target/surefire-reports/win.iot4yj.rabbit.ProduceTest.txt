@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: win.iot4yj.rabbit.ProduceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.967 s <<< FAILURE! - in win.iot4yj.rabbit.ProduceTest
+initializationError(win.iot4yj.rabbit.ProduceTest)  Time elapsed: 0.03 s  <<< ERROR!
+java.lang.Exception: No runnable methods
+

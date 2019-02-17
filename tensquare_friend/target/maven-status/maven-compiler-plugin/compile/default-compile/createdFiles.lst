@@ -1,0 +1,10 @@
+win\iot4yj\friend\pojo\Friend.class
+win\iot4yj\friend\dao\FriendDao.class
+win\iot4yj\friend\service\impl\FriendServiceImpl.class
+win\iot4yj\friend\interceptor\JwtInterceptor.class
+win\iot4yj\friend\pojo\NoFriend.class
+win\iot4yj\friend\config\InterceptorConfig.class
+win\iot4yj\friend\dao\NoFriendDao.class
+win\iot4yj\friend\FriendApplication.class
+win\iot4yj\friend\service\FriendService.class
+win\iot4yj\friend\client\UserClient.class

@@ -1,0 +1,17 @@
+E:\IDEA\workspace\tensquare\tensquare_qa\src\main\java\win\iot4yj\qa\config\InterceptorConfig.java
+E:\IDEA\workspace\tensquare\tensquare_qa\src\main\java\win\iot4yj\qa\dao\ReplyDao.java
+E:\IDEA\workspace\tensquare\tensquare_qa\src\main\java\win\iot4yj\qa\controller\ProblemController.java
+E:\IDEA\workspace\tensquare\tensquare_qa\src\main\java\win\iot4yj\qa\interceptor\JwtInterceptor.java
+E:\IDEA\workspace\tensquare\tensquare_qa\src\main\java\win\iot4yj\qa\client\impl\LabelClientImpl.java
+E:\IDEA\workspace\tensquare\tensquare_qa\src\main\java\win\iot4yj\qa\pojo\Pl.java
+E:\IDEA\workspace\tensquare\tensquare_qa\src\main\java\win\iot4yj\qa\service\impl\ProblemServiceImpl.java
+E:\IDEA\workspace\tensquare\tensquare_qa\src\main\java\win\iot4yj\qa\service\impl\ReplyServiceImpl.java
+E:\IDEA\workspace\tensquare\tensquare_qa\src\main\java\win\iot4yj\qa\client\LabelClient.java
+E:\IDEA\workspace\tensquare\tensquare_qa\src\main\java\win\iot4yj\qa\pojo\Reply.java
+E:\IDEA\workspace\tensquare\tensquare_qa\src\main\java\win\iot4yj\qa\pojo\Problem.java
+E:\IDEA\workspace\tensquare\tensquare_qa\src\main\java\win\iot4yj\qa\service\ReplyService.java
+E:\IDEA\workspace\tensquare\tensquare_qa\src\main\java\win\iot4yj\qa\service\ProblemService.java
+E:\IDEA\workspace\tensquare\tensquare_qa\src\main\java\win\iot4yj\qa\dao\ProblemDao.java
+E:\IDEA\workspace\tensquare\tensquare_qa\src\main\java\win\iot4yj\qa\QaApplication.java
+E:\IDEA\workspace\tensquare\tensquare_qa\src\main\java\win\iot4yj\qa\controller\BaseExceptionHandler.java
+E:\IDEA\workspace\tensquare\tensquare_qa\src\main\java\win\iot4yj\qa\controller\ReplyController.java

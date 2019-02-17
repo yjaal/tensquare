@@ -1,0 +1,8 @@
+win\iot4yj\base\exception\BaseExceptionHandler.class
+win\iot4yj\base\pojo\Label.class
+win\iot4yj\base\service\impl\LabelServiceImpl.class
+win\iot4yj\base\service\impl\LabelServiceImpl$1.class
+win\iot4yj\base\BaseApplication.class
+win\iot4yj\base\dao\LabelDao.class
+win\iot4yj\base\controller\LabelController.class
+win\iot4yj\base\service\LabelService.class

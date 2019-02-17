@@ -1,0 +1,17 @@
+win\iot4yj\qa\client\LabelClient.class
+win\iot4yj\qa\controller\ProblemController.class
+win\iot4yj\qa\service\ReplyService.class
+win\iot4yj\qa\controller\ReplyController.class
+win\iot4yj\qa\service\impl\ProblemServiceImpl.class
+win\iot4yj\qa\pojo\Reply.class
+win\iot4yj\qa\client\impl\LabelClientImpl.class
+win\iot4yj\qa\service\impl\ReplyServiceImpl.class
+win\iot4yj\qa\pojo\Pl.class
+win\iot4yj\qa\interceptor\JwtInterceptor.class
+win\iot4yj\qa\dao\ReplyDao.class
+win\iot4yj\qa\config\InterceptorConfig.class
+win\iot4yj\qa\controller\BaseExceptionHandler.class
+win\iot4yj\qa\QaApplication.class
+win\iot4yj\qa\pojo\Problem.class
+win\iot4yj\qa\service\ProblemService.class
+win\iot4yj\qa\dao\ProblemDao.class
